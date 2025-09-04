@@ -9,6 +9,9 @@
 </head>
 
 <body>
+
+    <div class="particulas"></div>
+
     <nav class="navegacao">
         <ul class="menu">
             <li>
@@ -27,7 +30,7 @@
     </nav>
 
     <main id="inicio" class="cabecalho">
-        <img src="assets/foto-jr-perfil.jpeg" alt="foto de perfil jr" class="foto-perfil">
+        <img src="assets/foto-jr-perfil.jpg" alt="foto de perfil jr" class="foto-perfil">
         <h1>Jota Érre</h1>
         <p class="cabecalho-sub-titulo">Desenvolvedor Full Stack</p>
     </main>
@@ -52,31 +55,38 @@
 
         <div class="projetos-caixa">
 
-            <div class="projeto-dahora">
-                <img src="assets/neo-quimicaestadio.jpg" alt="Neo Química Arena" class="imagem-projeto-dahora">
-                <h3 class="titulo-projeto-dahora">DaHora</h3>
-                <p class="paragrafo-projeto-dahora">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-                    incidunt autem, veniam cumque neque itaque officiis vel aut aliquam excepturi quia praesentium
-                    mollitia, dolore perspiciatis fugiat cupiditate in explicabo est?
-                </p>
+            <div class="projetos-card">
+                <img src="assets/neo-quimicaestadio.jpg" alt="Neo Química Arena" class="projeto-imagens">
+                <div class="caixa-texto-projetos">
+                    <h3 class="titulo-projeto">DaHora</h3>
+                    <p class="paragrafo-projeto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+                        incidunt autem, veniam cumque neque itaque officiis vel aut aliquam excepturi quia praesentium
+                        mollitia, dolore perspiciatis fugiat cupiditate in explicabo est?
+                    </p>
+                </div>
+
             </div>
 
-            <div class="projeto-top10">
-                <img src="assets/neo-quimicaestadio.jpg" alt="Neo Química Arena" class="projeto-dahora-imagem">
-                <h3 class="titulo-projeto-dahora">DaHora</h3>
-                <p class="paragrafo-projeto-dahora">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-                    incidunt autem, veniam cumque neque itaque officiis vel aut aliquam excepturi quia praesentium
-                    mollitia, dolore perspiciatis fugiat cupiditate in explicabo est?
-                </p>
+            <div class="projetos-card">
+                <img src="assets/neo-quimicaestadio.jpg" alt="Neo Química Arena" class="projeto-imagens">
+                <div class="caixa-texto-projetos">
+                    <h3 class="titulo-projeto">DaHora</h3>
+                    <p class="paragrafo-projeto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+                        incidunt autem, veniam cumque neque itaque officiis vel aut aliquam excepturi quia praesentium
+                        mollitia, dolore perspiciatis fugiat cupiditate in explicabo est?
+                    </p>
+                </div>
             </div>
 
-            <div class="projeto-landing-page">
-                <img src="assets/neo-quimicaestadio.jpg" alt="landing-page" class="imagem-landing-page">
-                <h3 class="titulo-landing-page">DaHora</h3>
-                <p class="paragrafo-landing-page">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-                    incidunt autem, veniam cumque neque itaque officiis vel aut aliquam excepturi quia praesentium
-                    mollitia, dolore perspiciatis fugiat cupiditate in explicabo est?
-                </p>
+            <div class="projetos-card">
+                <img src="assets/neo-quimicaestadio.jpg" alt="landing-page" class="projeto-imagens">
+                <div class="caixa-texto-projetos">
+                    <h3 class="titulo-projeto">DaHora</h3>
+                    <p class="paragrafo-projeto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+                        incidunt autem, veniam cumque neque itaque officiis vel aut aliquam excepturi quia praesentium
+                        mollitia, dolore perspiciatis fugiat cupiditate in explicabo est?
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -88,12 +98,14 @@
         <h2 class="contatos-titulo">Entre em contato</h2>
 
         <form id="formulario" class="formulario-contatos">
-            <div class="nome-form">
+            <div class="grupo-form">
                 <input placeholder="Nome" class="campo-form">
             </div>
             <div class="grupo-form">
-                <textarea class="text-form" placeholder="Digite sua Mensagem"></textarea>
+                <textarea class="campo-form" placeholder="Digite sua Mensagem"></textarea>
             </div>
+
+            <button type="submit" class="botao-form">Enviar Whatsapp</button>
         </form>
     </section>
 </body>
