@@ -97,17 +97,20 @@
 
         <h2 class="contatos-titulo">Entre em contato</h2>
 
-        <form id="formulario" class="formulario-contatos">
+        <form id="formulario" class="formulario-contatos" onsubmit="enviarWhats(event)">
             <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua Mensagem"></textarea>
+                <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="4" id="mensagem"></textarea>
             </div>
 
             <button type="submit" class="botao-form">Enviar Whatsapp</button>
         </form>
     </section>
+    
+    <script src="script.js"></script>
+
 </body>
 
 </html>
